@@ -13,7 +13,8 @@
     <RepositoryUrl>https://github.com/SPIN-Space-Innovation/SPIN.Devices</RepositoryUrl>
   </PropertyGroup>
 
-  <ItemGroup>
+    <ItemGroup>
     <ProjectReference Include="..\SPIN.Devices.Abstractions\SPIN.Devices.Abstractions.csproj" />
+    <PackageReference Include="UnitsNet" Version="5.31.0" />
   </ItemGroup>
 </Project>

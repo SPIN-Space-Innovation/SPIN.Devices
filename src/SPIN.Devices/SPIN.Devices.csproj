@@ -15,5 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SPIN.Devices.Abstractions\SPIN.Devices.Abstractions.csproj" />
+    <PackageReference Include="UnitsNet" Version="5.31.0" />
   </ItemGroup>
 </Project>
