@@ -20,4 +20,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+global using System.Device.I2c;
+global using System.Device.Spi;
 global using UnitsNet;
