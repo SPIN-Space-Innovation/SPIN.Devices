@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D22CC3F6-6A62-4D04-B410-E48315B8C761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPIN.Devices.Abstractions", "src\SPIN.Devices.Abstractions\SPIN.Devices.Abstractions.csproj", "{3F33B808-B32D-42A3-B960-C74C59F69DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPIN.Devices", "src\SPIN.Devices\SPIN.Devices.csproj", "{1B6B0C72-87CF-43C8-97B9-6380F253B305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPIN.Devices.Mocking", "src\SPIN.Devices.Mocking\SPIN.Devices.Mocking.csproj", "{D753F694-1915-46C7-A849-625F8B64DBFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +18,24 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F33B808-B32D-42A3-B960-C74C59F69DFF} = {D22CC3F6-6A62-4D04-B410-E48315B8C761}
+		{1B6B0C72-87CF-43C8-97B9-6380F253B305} = {D22CC3F6-6A62-4D04-B410-E48315B8C761}
+		{D753F694-1915-46C7-A849-625F8B64DBFE} = {D22CC3F6-6A62-4D04-B410-E48315B8C761}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F33B808-B32D-42A3-B960-C74C59F69DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F33B808-B32D-42A3-B960-C74C59F69DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F33B808-B32D-42A3-B960-C74C59F69DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F33B808-B32D-42A3-B960-C74C59F69DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6B0C72-87CF-43C8-97B9-6380F253B305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6B0C72-87CF-43C8-97B9-6380F253B305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6B0C72-87CF-43C8-97B9-6380F253B305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6B0C72-87CF-43C8-97B9-6380F253B305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D753F694-1915-46C7-A849-625F8B64DBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D753F694-1915-46C7-A849-625F8B64DBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D753F694-1915-46C7-A849-625F8B64DBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D753F694-1915-46C7-A849-625F8B64DBFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
